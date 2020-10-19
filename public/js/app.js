@@ -1,6 +1,3 @@
-console.log("New javascrpt file");
-
-
 fetch('http://localhost:3000/weather?address=!').then((response)=>{
 
            return response.json().then((data)=>{
