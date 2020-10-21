@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/weather?address=!').then((response)=>{
+fetch('/weather?address=!').then((response)=>{
 
            return response.json().then((data)=>{
               if (data.error) {
